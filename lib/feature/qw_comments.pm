@@ -4,7 +4,7 @@ package feature::qw_comments;
 use strict;
 use warnings;
 
-use version; our $VERSION = qv('v1.2.0');
+use version; our $VERSION = qv('v1.4.0');
 
 use XSLoader qw( );
 
@@ -22,7 +22,7 @@ feature::qw_comments - Pragma to allow comments in qw()
 
 =head1 VERSION
 
-Version 1.2.0
+Version 1.4.0
 
 
 =head1 SYNOPSIS
@@ -37,7 +37,10 @@ Version 1.2.0
 
 =head1 DESCRIPTION
 
-Allows comments are inside of C<qw()>.
+Allows comments inside of C<qw()>.
+
+C<qw()> should work identically with and without this pragma in all other respects except one:
+In addition to escaping delimiters and itself, C<\> will escape C<#>.
 
 
 =head2 C<< use feature::qw_comments; >>
