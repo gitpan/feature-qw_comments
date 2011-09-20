@@ -4,7 +4,7 @@
       "Eric Brine <ikegami@adaelis.com>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.110930",
+   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.110440",
    "license" : [
       "unrestricted"
    ],
@@ -37,7 +37,7 @@
    "provides" : {
       "feature::qw_comments" : {
          "file" : "lib/feature/qw_comments.pm",
-         "version" : "v1.4.0"
+         "version" : "v1.6.0"
       }
    },
    "release_status" : "stable",
@@ -46,5 +46,5 @@
          "http://creativecommons.org/publicdomain/zero/1.0/"
       ]
    },
-   "version" : "v1.4.0"
+   "version" : "v1.6.0"
 }
