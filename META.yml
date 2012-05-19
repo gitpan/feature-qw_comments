@@ -1,5 +1,5 @@
 ---
-abstract: 'Pragma to allow comments in qw()'
+abstract: 'DEPRECATED - Pragma to allow comments in qw()'
 author:
   - 'Eric Brine <ikegami@adaelis.com>'
 build_requires:
@@ -9,7 +9,7 @@ configure_requires:
   Module::Build: 0.3614
   Software::License::CC0_1_0: 0
 dynamic_config: 1
-generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.110440'
+generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.120921'
 license: unrestricted
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -18,11 +18,11 @@ name: feature-qw_comments
 provides:
   feature::qw_comments:
     file: lib/feature/qw_comments.pm
-    version: v1.10.0
+    version: v1.10.1
 requires:
   XSLoader: 0
   perl: 5.014
   version: 0
 resources:
   license: http://creativecommons.org/publicdomain/zero/1.0/
-version: v1.10.0
+version: v1.10.1

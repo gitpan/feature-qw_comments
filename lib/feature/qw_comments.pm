@@ -4,7 +4,7 @@ package feature::qw_comments;
 use strict;
 use warnings;
 
-use version; our $VERSION = qv('v1.10.0');
+use version; our $VERSION = qv('v1.10.1');
 
 use XSLoader qw( );
 
@@ -17,12 +17,19 @@ __END__
 
 =head1 NAME
 
-feature::qw_comments - Pragma to allow comments in qw()
+feature::qw_comments - DEPRECATED - Pragma to allow comments in qw()
+
+
+=head1 DEPRECATED
+
+Use L<Syntax::Feature::QwComments> instead. It uses a safer mechanism
+to provide the feature, and this module will eventually be deleted
+to free up the feature:: namespace for Perl itself.
 
 
 =head1 VERSION
 
-Version 1.10.0
+Version 1.10.1
 
 
 =head1 SYNOPSIS

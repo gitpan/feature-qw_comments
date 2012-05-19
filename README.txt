@@ -3,6 +3,13 @@ feature-qw_comments
 Pragma to allow comments in qw().
 
 
+DEPRECATED
+
+Use Syntax::Feature::QwComments instead. It uses a safer mechanism
+to provide the feature, and this module will eventually be deleted
+to free up the feature:: namespace for Perl itself.
+
+
 INSTALLATION
 
 To install this module, run the following commands:

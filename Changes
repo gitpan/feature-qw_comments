@@ -1,5 +1,9 @@
 Revision history for feature-qw_comments
 
+1.10.1  2012/05/19
+        - This module is now deprecated.
+          Use Syntax::Feature::QwComments instead.
+
 1.10.0  2011/10/26
         - An improper opcode tree was built for an empty qw().
           This caused Perl 5.13.3+ to crash.
